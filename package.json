@@ -8,10 +8,10 @@
     "npm": "10.5.0"
   },
   "scripts": {
-    "start": "node index.js",
     "server": "nodemon index.js",
     "client": "npm run start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\" "
+    "dev": "concurrently \"npm run server\" \"npm run client\" ",
+    "start":"npm run dev"
   },
   "author": "",
   "license": "ISC",
